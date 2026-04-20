@@ -1,105 +1,36 @@
-# Consulta VIN - Next.js Application
-
-Modern VIN checking service website built with Next.js 14, TypeScript, and Tailwind CSS.
-
-## Features
-
-- ✅ Next.js 14 App Router
-- ✅ TypeScript
-- ✅ Tailwind CSS v4
-- ✅ Brand Guidelines Compliant
-- ✅ Responsive Design
-- ✅ 10+ Reusable Components
-- ✅ Server & Client Components
-- ✅ Bricolage Grotesque + Rubik Fonts
-
-## Brand Colors
-
-- **Primary Red**: #A51C31 - Energy & Action
-- **Navy Blue**: #2C234D - Trust & Stability
-- **Warm Orange**: #F9B248 - Vibrancy & Approachability
-- **Light Gray**: #F5F1FE - Neutral Background
-- **Dark Gray**: #4A4A4A - Supporting Text
-
-## Typography
-
-- **Headings**: Bricolage Grotesque (200-800 weights)
-- **Body**: Rubik (300-800 weights)
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-Install dependencies:
+First, run the development server:
 
-\`\`\`bash
-npm install
-# or
-pnpm install
-\`\`\`
-
-Run the development server:
-
-\`\`\`bash
+```bash
 npm run dev
 # or
+yarn dev
+# or
 pnpm dev
-\`\`\`
+# or
+bun dev
+```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Project Structure
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-\`\`\`
-app/
-├── components/       # Reusable UI components
-│   ├── Navigation.tsx
-│   ├── Button.tsx
-│   ├── Badge.tsx
-│   ├── SectionHeader.tsx
-│   ├── FeatureCard.tsx
-│   ├── FeatureWithImage.tsx
-│   ├── SimpleFeatureCard.tsx
-│   ├── ServiceCard.tsx
-│   ├── PricingCard.tsx
-│   ├── TestimonialCard.tsx
-│   ├── FAQItem.tsx
-│   └── ComponentShowcase.tsx
-├── styles/
-│   └── theme.css     # Brand colors & design tokens
-├── layout.tsx        # Root layout with fonts
-├── page.tsx          # Homepage
-└── globals.css       # Global styles
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Components
+## Learn More
 
-### Button
-4 variants (primary, secondary, outline, ghost) × 3 sizes
+To learn more about Next.js, take a look at the following resources:
 
-### Badge
-3 variants for labels and status indicators
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### SectionHeader
-Consistent section titles with optional badge
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### FeatureWithImage
-Two-column layout for features with imagery
+## Deploy on Vercel
 
-### SimpleFeatureCard
-Minimal icon-based feature cards
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### PricingCard
-Pricing tiers with highlight option
-
-### And more...
-
-View all components by clicking "View Components" button in the bottom-right corner.
-
-## Build for Production
-
-\`\`\`bash
-npm run build
-npm start
-\`\`\`
-
-## License
-
-© 2026 Consulta de VIN. All rights reserved.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
